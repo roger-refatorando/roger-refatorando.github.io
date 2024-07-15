@@ -78,6 +78,10 @@ section {
   text-align: justify;
 }
 
+.hero-text h1{
+  font-size: 4em;
+}
+
 .hero-image {
   max-width: 70%;
   margin: 20px 0;
@@ -230,6 +234,11 @@ body.dark-mode figcaption {
 
   .hero-text {
     order: 2;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5em;
+    text-align: center;
   }
 
   .hero-image {
