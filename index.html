@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <button id="theme-toggle"><i class="fas fa-sun"></i></button>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Roger Santos</h2>
+                    Sou um desenvolvedor web com mais de duas décadas de experiência em TI. Tenho uma paixão por criar soluções inovadoras e eficientes que resolvam problemas reais. Minha jornada na tecnologia começou aos 16 anos, quando criei meu primeiro site e desde então nunca parei de aprender e evoluir.</p>
+                    <p>Ao longo da minha carreira, trabalhei em diversos projetos, desde pequenos sites pessoais até grandes plataformas corporativas. Minha experiência inclui desenvolvimento frontend e backend, com uma forte ênfase na criação de interfaces de usuário intuitivas e responsivas. Sou fluente em várias linguagens de programação e frameworks, e estou sempre em busca de novas tecnologias para adicionar ao meu repertório.</p>
+                    <div class="skills">
+                        <h2>Habilidades</h2>
+                        <ul>
+                            <li><i class="fab fa-html5"></i> HTML</li>
+                            <li><i class="fab fa-css3-alt"></i> CSS</li>
+                            <li><i class="fab fa-js"></i> JavaScript</li>
+                            <!-- Adicione mais habilidades conforme necessário -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="foto.jpg" alt="Foto minha">
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projetos</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="projeto-2.png" alt="Clone Netflix">
+                    <figcaption>Clone Netflix</figcaption>
+                </figure>
+                <figure>
+                    <img src="projeto-3.png" alt="Clone AirBNB">
+                    <figcaption>Clone AirBNB</figcaption>
+                </figure>
+                <figure>
+                    <img src="projeto-4.png" alt="Clone Spotify">
+                    <figcaption>Clone Spotify</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="10" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
